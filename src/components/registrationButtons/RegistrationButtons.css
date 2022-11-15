@@ -1,0 +1,40 @@
+.regButtons {
+	height: max-content;
+	width: max-content;
+	display: flex;
+	flex-flow: row;
+	gap: 1.5rem;
+}
+
+.regButtons button {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #f78d11;
+	border-radius: 11px;
+	height: 2rem;
+	width: 8rem;
+}
+
+@media (max-width: 800px) {
+	.regButtons {
+		height: max-content;
+		width: max-content;
+		display: flex;
+		flex-flow: row;
+		gap: 1rem;
+	}
+
+	.regButtons button {
+		border: none;
+		outline: none;
+		color: #fff;
+		background-color: #f78d11;
+		border-radius: 11px;
+		height: 1rem;
+		width: 4rem;
+	}
+}
+.regButtons button:hover {
+	scale: 1.1;
+}

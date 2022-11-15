@@ -1,0 +1,22 @@
+.logo {
+	height: max-content;
+	width: max-content;
+}
+
+.logo h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 5rem;
+	color: #fff;
+}
+
+@media (max-width: 900px) {
+	.logo h1 {
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+		font-size: 3rem;
+		color: #fff;
+	}
+}
