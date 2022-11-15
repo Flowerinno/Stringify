@@ -9,8 +9,8 @@
 .regButtons button {
 	border: none;
 	outline: none;
-	color: #fff;
-	background-color: #f78d11;
+	color: rgb(170, 201, 201);
+	background-color: rgb(134, 97, 97);
 	border-radius: 11px;
 	height: 2rem;
 	width: 8rem;
@@ -28,8 +28,8 @@
 	.regButtons button {
 		border: none;
 		outline: none;
-		color: #fff;
-		background-color: #f78d11;
+		color: rgb(170, 201, 201);
+	background-color: rgb(134, 97, 97);
 		border-radius: 11px;
 		height: 1rem;
 		width: 4rem;

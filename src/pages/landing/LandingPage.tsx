@@ -29,7 +29,7 @@ const LandingPage = () => {
 					<SliderOne />
 				</motion.div>
 			</div>
-			<div className="section-two"></div>
+			<div className="section-two" id="section-two"></div>
 			<div className="section-three"></div>
 			<div className="section-four"></div>
 		</div>

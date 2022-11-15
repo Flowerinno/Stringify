@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Logo = () => {
 	return (
 		<motion.div className="logo">
-			<h1>Stringify ↓</h1>
+			<h1>Stringify</h1>
 		</motion.div>
 	);
 };

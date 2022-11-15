@@ -4,8 +4,8 @@ import "./RegistrationButtons.css";
 const RegistrationButtons = () => {
 	return (
 		<div className="regButtons">
-			<button>Sign in</button>
-			<button>Sign up</button>
+			<button>SIGN UP</button>
+			<button>SIGN IN</button>
 		</div>
 	);
 };
