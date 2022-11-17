@@ -10,10 +10,17 @@ body {
 * {
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 	scroll-behavior: smooth;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
+}
+
+@media (max-width: 900px) {
+	#arrow {
+		font-size: 3rem;
+	}
 }

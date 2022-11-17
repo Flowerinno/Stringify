@@ -1,40 +1,45 @@
 .regButtons {
 	height: max-content;
-	width: max-content;
+	width: 100%;
 	display: flex;
 	flex-flow: row;
 	gap: 1.5rem;
+	padding: 0.5rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .regButtons button {
 	border: none;
 	outline: none;
-	color: rgb(170, 201, 201);
-	background-color: rgb(134, 97, 97);
+	color: black;
+	background-color: #fff;
 	border-radius: 11px;
 	height: 2rem;
 	width: 8rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	.regButtons {
-		height: max-content;
-		width: max-content;
+		width: 100%;
 		display: flex;
 		flex-flow: row;
+		justify-content: center;
+		align-items: center;
 		gap: 1rem;
 	}
 
 	.regButtons button {
 		border: none;
 		outline: none;
-		color: rgb(170, 201, 201);
-	background-color: rgb(134, 97, 97);
+		color: black;
+		background-color: #fff;
 		border-radius: 11px;
-		height: 1rem;
-		width: 4rem;
+		height: 2rem;
+		width: 6rem;
 	}
 }
 .regButtons button:hover {
 	scale: 1.1;
+	cursor: pointer;
 }

@@ -1,6 +1,9 @@
 .logo {
-	height: max-content;
-	width: max-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
 }
 
 .logo h1 {
@@ -16,7 +19,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: bold;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		color: #fff;
 	}
 }
