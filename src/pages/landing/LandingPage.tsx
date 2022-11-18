@@ -5,7 +5,8 @@ import RegistrationButtons from "../../components/registrationButtons/Registrati
 import Logo from "../../components/logo/Logo";
 import SectionTwo from "./sectionTwo/SectionTwo";
 import SectionOne from "./sectionOne/SectionOne";
-
+import SectionThree from './sectionThree/SectionThree'
+import SectionFour from './sectionFour/SectionFour'
 const LandingPage = () => {
 	const ref = useRef(null);
 
@@ -18,23 +19,15 @@ const LandingPage = () => {
 						<RegistrationButtons />
 					</motion.div>
 				</div>
-
-				{/* <motion.div
-					className="section-one_slider"
-					initial={{ opacity: 0 }}
-					transition={{ duration: 1.5 }}
-					whileInView={{ opacity: 1 }}
-					exit={{ opacity: 0 }}
-					ref={ref}
-				> */}
 				<SectionOne />
-				{/* </motion.div> */}
 			</div>
 			<div className="section-two" id="section-two">
 				<SectionTwo />
 			</div>
-			<div className="section-three" id="section-three"></div>
-			<div className="section-four" id="section-four"></div>
+			<div className="section-three" id="section-three">
+			<SectionThree /> </div>
+			<div className="section-four" id="section-four">
+			<SectionFour /></div>
 		</div>
 	);
 };

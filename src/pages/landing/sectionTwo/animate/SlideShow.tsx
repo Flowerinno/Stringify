@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { images } from "../data";
 import "./SlideShow.css";
+
 const variants = {
 	enter: (direction: number) => {
 		return {
@@ -25,10 +26,10 @@ const variants = {
 	},
 };
 
-const swipeConfidenceThreshold = 10000;
-const swipePower = (offset: number, velocity: number) => {
-	return Math.abs(offset) * velocity;
-};
+// const swipeConfidenceThreshold = 10000;
+// const swipePower = (offset: number, velocity: number) => {
+// 	return Math.abs(offset) * velocity;
+// };
 
 export const SlideShow = () => {
 	const [[page, direction], setPage] = useState([0, 0]);
@@ -40,7 +41,7 @@ export const SlideShow = () => {
 	};
 
 	return (
-		<>
+		<div className='slideShow-container'>
 			<div className="next" onClick={() => paginate(1)}>
 				{"‣"}
 			</div>
@@ -52,29 +53,15 @@ export const SlideShow = () => {
 					variants={variants}
 					initial="enter"
 					animate="center"
-					exit="exit"
 					transition={{
-						x: { type: "spring", stiffness: 300, damping: 30 },
-						opacity: { duration: 0.2 },
+						opacity: { duration: 0.4 },
 					}}
-					drag="x"
-					dragConstraints={{ left: 0, right: 0 }}
-                    dragElastic={1}
                     className='sliderTwo-img'
-					onDragEnd={(e, { offset, velocity }) => {
-						const swipe = swipePower(offset.x, velocity.x);
-
-						if (swipe < -swipeConfidenceThreshold) {
-							paginate(1);
-						} else if (swipe > swipeConfidenceThreshold) {
-							paginate(-1);
-						}
-					}}
 				/>
 			</AnimatePresence>
 			<div className="prev" onClick={() => paginate(-1)}>
 				{"‣"}
 			</div>
-		</>
+		</div>
 	);
 };

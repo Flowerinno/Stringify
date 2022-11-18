@@ -1,0 +1,44 @@
+.sectionFour-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 4rem;
+}
+
+
+.sectionFour-content {
+display: flex;
+flex-flow: column;
+align-items: center;
+
+height: 100%;
+width: 100%;
+gap: 2rem;
+}
+
+.sectionFour-category {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  gap: 1rem;
+  height: max-content;
+}
+
+.sectionFour-category>span {
+  font-weight: bold;
+  font-size: 20px;
+  width: max-content;
+  height: max-content;
+  color: orange;
+  background-color:
+}
+
+.sectionFour-category>span:hover {
+  scale: 1.1;
+  color: red;
+  cursor: pointer;
+}

@@ -9,7 +9,7 @@ const SectionOne = () => {
 				className="sliderOne-slider"
 				initial={{ opacity: 0, y: 0 }}
 				whileInView={{ opacity: 1 }}
-				transition={{ duration: 1.5 }}
+				transition={{ duration: 1 }}
 			>
 				{vinylsData.map(({ img }, i) => {
 					return <img key={i} src={img} alt="slides" />;
@@ -18,7 +18,7 @@ const SectionOne = () => {
 			<motion.div
 				initial={{ opacity: 0, y: 0 }}
 				whileInView={{ opacity: 1, y: -50 }}
-				transition={{ duration: 1.5 }}
+				transition={{ duration: 1 }}
 				className="sliderOne-text"
 			>
 				Make your life better by listening to some good music
@@ -30,7 +30,7 @@ const SectionOne = () => {
 					scale: [1, 2, 2, 1, 1],
 					rotate: [0, 0, 270, 270, 0],
 				}}
-				transition={{ duration: 1.5 }}
+				transition={{ duration: 1 }}
 				style={{
 					fontSize: "6rem",
 					width: "max-content",
