@@ -34,7 +34,10 @@ gap: 2rem;
   width: max-content;
   height: max-content;
   color: orange;
-  background-color:
+  background-color: #fff;
+  border:none;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .sectionFour-category>span:hover {

@@ -31,13 +31,7 @@
 	font-weight: bold;
 	font-size: 3rem;
 	letter-spacing: 0.5rem;
-
-        color: #912f94;
-        background-image: -webkit-linear-gradient(45deg, #912f94 18%, #ff5722 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        text-fill-color: transparent;
-        -webkit-text-fill-color: transparent;
+	color: #fff;
 
 }
 
