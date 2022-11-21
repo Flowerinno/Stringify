@@ -1,6 +1,6 @@
 ## Stringify music web application
 
-## FOR EDUCATIONAL PURPOSUSES ONLY
+## FOR EDUCATIONAL PURPOSES ONLY
 
 ## Technology stack:
 
