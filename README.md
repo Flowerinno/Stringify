@@ -1,4 +1,4 @@
-## Stringify music web application
+## Stringify music web application -- landing page.
 
 ## FOR EDUCATIONAL PURPOSES ONLY
 
@@ -6,3 +6,7 @@
 
 -- React + Typescript
 -- Node.js
+
+Deployed on Vercel.
+
+DEMO: https://stringify-two.vercel.app/
